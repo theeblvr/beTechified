@@ -2,12 +2,18 @@
   "name": "betechified",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "week2-node-express/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon week2-node-express/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.0",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
 }
